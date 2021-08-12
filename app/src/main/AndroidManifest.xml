@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mypet">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyPet">
+        <activity android:name=".AddedItems"></activity>
+        <activity android:name=".WantedPet" />
+        <activity android:name=".AddedSellDonatePets" />
+        <activity android:name=".LogIn" />
+        <activity android:name=".TestingNav" />
+        <activity android:name=".Home" />
+        <activity android:name=".ToDo" />
+        <activity android:name=".ViewGrowth" />
+        <activity android:name=".Weight" />
+        <activity android:name=".Reminder" />
+        <activity android:name=".ADD_Items" />
+        <activity android:name=".Desire_Pets" />
+        <activity android:name=".CreateList" />
+        <activity android:name=".Sell_Donate" />
+        <activity android:name=".bird" />
+        <activity android:name=".CAT" />
+        <activity android:name=".Dog" />
+        <activity android:name=".Mypet" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

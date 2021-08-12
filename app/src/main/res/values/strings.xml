@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyPet</string>
+    <string name="btn_todo">To Do</string>
+    <string name="btn_reminder">Reminders</string>
+    <string name="btn_petGrow">Pet Growth</string>
+    <string name="tv_name">Descripition</string>
+    <string name="tv_contact">Contact</string>
+    <string name="tv_price">Price</string>
+    <string name="textView3">Search Here...</string>
+</resources>
