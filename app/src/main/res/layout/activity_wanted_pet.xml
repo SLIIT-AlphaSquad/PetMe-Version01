@@ -30,8 +30,8 @@
 
         <View
             android:id="@+id/view3"
-            android:layout_width="411dp"
-            android:layout_height="215dp"
+            android:layout_width="401dp"
+            android:layout_height="212dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="4dp"
             android:background="#99B8AFAF"
@@ -40,22 +40,46 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="39dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="312dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="@+id/view3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            app:srcCompat="@drawable/pencilIcon" />
+
+        <ImageButton
+            android:id="@+id/imageButton10"
+            android:layout_width="33dp"
+            android:layout_height="32dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="@+id/imageButton9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageButton9"
+            app:layout_constraintTop_toTopOf="@+id/imageButton9"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/delete" />
+
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="409dp"
-            android:layout_height="66dp"
-            android:layout_marginTop="17dp"
+            android:layout_width="392dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="24dp"
             android:background="#99B8AFAF"
             android:text="Wanted!"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_bias="0.473"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
         <TextView
             android:id="@+id/textView6"
-            android:layout_width="400dp"
-            android:layout_height="86dp"
+            android:layout_width="390dp"
+            android:layout_height="81dp"
             android:layout_marginTop="7dp"
             android:background="#99B8AFAF"
             android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
@@ -193,23 +217,6 @@
             app:layout_constraintHorizontal_bias="0.615"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/upper_toolbar" />
-
-        <Button
-            android:id="@+id/button14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Update"
-            app:layout_constraintEnd_toStartOf="@+id/button15"
-            tools:layout_editor_absoluteY="350dp" />
-
-        <Button
-            android:id="@+id/button15"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="36dp"
-            android:text="DELETE"
-            app:layout_constraintEnd_toEndOf="parent"
-            tools:layout_editor_absoluteY="350dp" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
