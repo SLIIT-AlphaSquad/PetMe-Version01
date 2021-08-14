@@ -6,15 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Sell_Donate">
 
-    <View
-        android:id="@+id/view"
-        android:layout_width="411dp"
-        android:layout_height="451dp"
-        android:background="@color/ash"
-        app:layout_constraintBottom_toTopOf="@+id/toolbar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <TextView
         android:id="@+id/textView9"
         android:layout_width="420dp"
@@ -30,11 +21,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <View
+        android:id="@+id/view"
+        android:layout_width="386dp"
+        android:layout_height="428dp"
+        android:background="@color/bg_color_forms"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="223dp" />
+
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"
+        android:backgroundTint="@color/LightRed"
         android:text="Add Reminder"
         app:layout_constraintBottom_toBottomOf="@+id/view"
         app:layout_constraintEnd_toEndOf="parent"

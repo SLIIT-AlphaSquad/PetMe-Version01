@@ -35,7 +35,7 @@
         android:layout_width="414dp"
         android:layout_height="455dp"
         android:layout_marginBottom="68dp"
-        android:background="@color/ash"
+        android:background="@color/bg_color_forms"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

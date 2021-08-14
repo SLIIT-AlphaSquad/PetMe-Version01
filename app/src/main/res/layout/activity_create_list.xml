@@ -18,26 +18,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="200dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="380dp"
-        android:text="pic eka danna ona "
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Create"
-        tools:layout_editor_absoluteX="258dp"
-        tools:layout_editor_absoluteY="288dp" />
-
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="409dp"
@@ -58,6 +38,20 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:context=".MainActivity"
         tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="184dp"
+            android:layout_height="173dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewT1"
+            app:layout_constraintVertical_bias="0.397"
+            app:srcCompat="@drawable/paw"
+            app:tint="#56000000" />
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/upper_toolbar"
@@ -182,8 +176,17 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="List"
-            tools:layout_editor_absoluteX="29dp"
-            tools:layout_editor_absoluteY="160dp" />
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="321dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/LightRed"
+            android:text="Create"
+            tools:layout_editor_absoluteX="274dp"
+            tools:layout_editor_absoluteY="419dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
