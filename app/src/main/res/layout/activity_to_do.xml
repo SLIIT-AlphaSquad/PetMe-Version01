@@ -34,6 +34,17 @@
         tools:layout_editor_absoluteX="-16dp"
         tools:layout_editor_absoluteY="0dp">
 
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:backgroundTint="@color/LightRed"
+            android:src="@android:drawable/ic_input_add"
+            tools:layout_editor_absoluteX="329dp"
+            tools:layout_editor_absoluteY="600dp" />
+
         <ImageButton
             android:id="@+id/imageButton12"
             android:layout_width="33dp"
