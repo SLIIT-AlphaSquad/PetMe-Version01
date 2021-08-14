@@ -7,7 +7,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="LightRed">#D85A5A</color>
-    <color name="ash">#837F7F</color>
-    <color name="bg_color_forms">#99B8AFAF</color>
+    <color name="toolbar">#D85A5A</color>
+    <color name="imagebutton">#D85A5A</color>
+    <color name="textureView">#C4C4C4</color>
+    <color name="button">#AFAAAA</color>
+    <color name="button1">#913E38</color>
+    <color name="logout">#EE594F</color>
+    <color name="sell1">#DB7B73</color>
+    <color name="desire">#B4655F</color>
+    <color name="sell">#B4655F</color>
+    <color name="Items">#B4655F</color>
+    <color name="hambg">#99B8AFAF</color>
 </resources>
