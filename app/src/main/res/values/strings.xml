@@ -22,9 +22,4 @@
     <string name="tv_pro_email">Email</string>
     <string name="tv_pro_contactNo">Contact No</string>
     <string name="tv_pro_address">Address</string>
-    <string name="btn_petVaccination">Pet Vaccination</string>
-    <string name="tv_vaccination">Pet Vaccination</string>
-    <string name="tv_tblVaccine">Vaccine</string>
-    <string name="tv_tblDate">Date</string>
-    <string name="tv_tblDone">Done</string>
 </resources>
