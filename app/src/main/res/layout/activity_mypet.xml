@@ -141,46 +141,43 @@
             app:layout_constraintEnd_toStartOf="@+id/imageView15"
             app:srcCompat="@drawable/todo" />
 
+        <Button
+            android:id="@+id/btn_petGrow"
+            android:layout_width="340dp"
+            android:layout_height="84dp"
+            android:backgroundTint="@color/LightRed"
+            android:text="@string/btn_petGrow"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="380dp" />
+
+        <Button
+            android:id="@+id/btn_petGrow2"
+            android:layout_width="340dp"
+            android:layout_height="84dp"
+            android:backgroundTint="@color/LightRed"
+            android:text="@string/btn_petVaccination"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="473dp" />
+
+        <Button
+            android:id="@+id/btn_reminder"
+            android:layout_width="340dp"
+            android:layout_height="84dp"
+            android:backgroundTint="@color/LightRed"
+            android:text="@string/btn_reminder"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="286dp" />
+
+        <Button
+            android:id="@+id/btn_todo"
+            android:layout_width="340dp"
+            android:layout_height="84dp"
+            android:backgroundTint="@color/LightRed"
+            android:text="@string/btn_todo"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="192dp" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <Button
-        android:id="@+id/btn_todo"
-        android:layout_width="340dp"
-        android:layout_height="84dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="231dp"
-        android:layout_marginEnd="36dp"
-        android:backgroundTint="@color/LightRed"
-        android:text="@string/btn_todo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btn_reminder"
-        android:layout_width="340dp"
-        android:layout_height="84dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="42dp"
-        android:layout_marginEnd="36dp"
-        android:backgroundTint="@color/LightRed"
-        android:text="@string/btn_reminder"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_todo" />
-
-    <Button
-        android:id="@+id/btn_petGrow"
-        android:layout_width="340dp"
-        android:layout_height="84dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="43dp"
-        android:layout_marginEnd="36dp"
-        android:backgroundTint="@color/LightRed"
-        android:text="@string/btn_petGrow"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_reminder" />
 
     <?xml version="1.0" encoding="utf-8"?>
 </androidx.constraintlayout.widget.ConstraintLayout>

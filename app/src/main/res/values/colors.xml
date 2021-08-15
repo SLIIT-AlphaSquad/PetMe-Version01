@@ -10,4 +10,5 @@
     <color name="LightRed">#D85A5A</color>
     <color name="ash">#837F7F</color>
     <color name="bg_color_forms">#99B8AFAF</color>
+    <color name="bg_color2">B3B8AFAF</color>
 </resources>

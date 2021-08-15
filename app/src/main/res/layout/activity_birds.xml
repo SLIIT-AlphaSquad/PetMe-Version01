@@ -56,81 +56,37 @@
         app:layout_constraintStart_toStartOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="81dp"
-        android:layout_height="66dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="153dp"
-        android:layout_marginEnd="298dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/dog" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="82dp"
-        android:layout_height="66dp"
-        android:layout_marginStart="51dp"
-        android:layout_marginTop="153dp"
-        android:layout_marginEnd="164dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cats" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="82dp"
-        android:layout_height="66dp"
-        android:layout_marginStart="45dp"
-        android:layout_marginTop="153dp"
-        android:layout_marginEnd="37dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/birds" />
-
     <View
         android:id="@+id/view2"
         android:layout_width="411dp"
         android:layout_height="215dp"
-        android:layout_marginTop="19dp"
         android:background="#99B8AFAF"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        tools:layout_editor_absoluteY="238dp" />
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="128dp"
         android:layout_height="213dp"
-        android:layout_marginTop="19dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:srcCompat="@drawable/bird1" />
+        app:srcCompat="@drawable/bird1"
+        tools:layout_editor_absoluteY="238dp" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="281dp"
         android:layout_height="68dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="16dp"
         android:background="#99B8AFAF"
         android:text="10 years old  Parrot - Sun conure "
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="235dp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="280dp"
         android:layout_height="77dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="68dp"
         android:background="#99B8AFAF"
         android:text="Contact: Mr. Thanusha Fernando                       +94778056932         Location: No 52,                           Flower Rd                           Colombo. "
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:layout_constraintTop_toTopOf="@+id/textView" />
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="303dp" />
 
     <TextView
         android:id="@+id/textViewB1"
@@ -157,8 +113,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity"
-        tools:layout_editor_absoluteX="-16dp"
-        tools:layout_editor_absoluteY="0dp">
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="93dp"
+            android:layout_height="21dp"
+            android:text="No of Ads: 2"
+            tools:layout_editor_absoluteX="294dp"
+            tools:layout_editor_absoluteY="210dp" />
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/upper_toolbar"
@@ -275,6 +239,38 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/imageView15"
             app:srcCompat="@drawable/todo" />
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="101dp"
+            android:layout_height="85dp"
+            android:background="@color/LightRed"
+            tools:layout_editor_absoluteX="281dp"
+            tools:layout_editor_absoluteY="125dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="82dp"
+            android:layout_height="66dp"
+            app:srcCompat="@drawable/birds"
+            tools:layout_editor_absoluteX="290dp"
+            tools:layout_editor_absoluteY="134dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="82dp"
+            android:layout_height="66dp"
+            app:srcCompat="@drawable/cats"
+            tools:layout_editor_absoluteX="164dp"
+            tools:layout_editor_absoluteY="134dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="81dp"
+            android:layout_height="66dp"
+            app:srcCompat="@drawable/dog"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="135dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

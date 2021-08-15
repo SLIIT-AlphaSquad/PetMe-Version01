@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="inherit"
+    tools:context=".Weight">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="@color/LightRed"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="textEnd"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="-80dp">
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="171dp"
+            android:layout_height="37dp"
+            android:background="@color/bg_color_forms"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="278dp" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="171dp"
+            android:layout_height="37dp"
+            android:background="@color/bg_color_forms"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="426dp" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="290dp"
+            android:layout_height="35dp"
+            android:background="@color/bg_color_forms"
+            android:text="No of times Vaccinated : "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="530dp" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="171dp"
+            android:layout_height="37dp"
+            android:background="#B3B8AFAF"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="389dp" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="171dp"
+            android:layout_height="37dp"
+            android:background="@color/bg_color_forms"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="171dp"
+            android:layout_height="37dp"
+            android:background="#B3B8AFAF"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="315dp" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="171dp"
+            android:layout_height="37dp"
+            android:background="@color/ash"
+            android:text="@string/tv_tblVaccine"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintTop_toTopOf="@+id/textView29"
+            tools:layout_editor_absoluteX="30dp" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="123dp"
+            android:layout_height="37dp"
+            android:background="@color/ash"
+            android:text="@string/tv_tblDate"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="201dp"
+            tools:layout_editor_absoluteY="242dp" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="123dp"
+            android:layout_height="37dp"
+            android:background="@color/bg_color_forms"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="201dp"
+            tools:layout_editor_absoluteY="278dp" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="123dp"
+            android:layout_height="37dp"
+            android:background="@color/bg_color_forms"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="201dp"
+            tools:layout_editor_absoluteY="426dp" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="123dp"
+            android:layout_height="37dp"
+            android:background="#B3B8AFAF"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="201dp"
+            tools:layout_editor_absoluteY="389dp" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="123dp"
+            android:layout_height="37dp"
+            android:background="@color/bg_color_forms"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="201dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="123dp"
+            android:layout_height="37dp"
+            android:background="#B3B8AFAF"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="201dp"
+            tools:layout_editor_absoluteY="315dp" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="53dp"
+            android:layout_height="37dp"
+            android:background="@color/ash"
+            android:text="@string/tv_tblDone"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintTop_toTopOf="@+id/textView29"
+            tools:layout_editor_absoluteX="324dp" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="53dp"
+            android:layout_height="37dp"
+            android:background="@color/bg_color_forms"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="324dp"
+            tools:layout_editor_absoluteY="278dp" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="53dp"
+            android:layout_height="37dp"
+            android:background="@color/bg_color_forms"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="324dp"
+            tools:layout_editor_absoluteY="426dp" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="53dp"
+            android:layout_height="37dp"
+            android:background="#B3B8AFAF"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="324dp"
+            tools:layout_editor_absoluteY="389dp" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="53dp"
+            android:layout_height="37dp"
+            android:background="@color/bg_color_forms"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="324dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="53dp"
+            android:layout_height="37dp"
+            android:background="#B3B8AFAF"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="324dp"
+            tools:layout_editor_absoluteY="315dp" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/upper_toolbar"
+            android:layout_width="417dp"
+            android:layout_height="111dp"
+            android:background="@color/LightRed"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="364dp"
+            android:layout_height="26dp"
+            android:background="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.1">
+
+        </SearchView>
+
+        <TextView
+            android:id="@+id/textViewT1"
+            android:layout_width="136dp"
+            android:layout_height="23dp"
+            android:text="@string/textView3"
+            android:textColor="#BC000000"
+            app:layout_constraintBottom_toBottomOf="@+id/searchView"
+            app:layout_constraintEnd_toEndOf="@+id/searchView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/searchView" />
+
+        <ImageButton
+            android:id="@+id/imageButto"
+            android:layout_width="52dp"
+            android:layout_height="53dp"
+            android:backgroundTint="#D85A5A"
+            app:layout_constraintBottom_toBottomOf="@+id/upper_toolbar"
+            app:layout_constraintEnd_toEndOf="@+id/upper_toolbar"
+            app:layout_constraintHorizontal_bias="0.03"
+            app:layout_constraintStart_toStartOf="@+id/upper_toolbar"
+            app:layout_constraintTop_toTopOf="@+id/upper_toolbar"
+            app:layout_constraintVertical_bias="0.189"
+            app:srcCompat="@drawable/hanb" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="121dp"
+            android:layout_height="69dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewT1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.423"
+            app:srcCompat="@drawable/ptl" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/homeb" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="37dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="11dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView11"
+            app:srcCompat="@drawable/shop" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="63dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="38dp"
+            android:layout_marginBottom="1dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView14"
+            app:layout_constraintStart_toEndOf="@+id/imageView12"
+            app:srcCompat="@drawable/plus" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginEnd="39dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/prof" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="39dp"
+            android:layout_height="39dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/teal_200"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView15"
+            app:srcCompat="@drawable/todo" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="222dp"
+            android:layout_height="43dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/tv_vaccination"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="104dp"
+            tools:layout_editor_absoluteY="162dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

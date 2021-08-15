@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Mypet">
+    tools:context=".AddedSellDonatePets">
+
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -21,9 +22,45 @@
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity"
-        tools:layout_editor_absoluteX="-16dp"
-        tools:layout_editor_absoluteY="0dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".MainActivity">
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="401dp"
+            android:layout_height="212dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="4dp"
+            android:background="#99B8AFAF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="392dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="24dp"
+            android:background="#99B8AFAF"
+            android:text="Wanted!"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="390dp"
+            android:layout_height="81dp"
+            android:layout_marginTop="7dp"
+            android:background="#99B8AFAF"
+            android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/upper_toolbar"
@@ -141,76 +178,30 @@
             app:layout_constraintEnd_toStartOf="@+id/imageView15"
             app:srcCompat="@drawable/todo" />
 
-        <View
-            android:id="@+id/view5"
-            android:layout_width="321dp"
-            android:layout_height="511dp"
-            android:background="#CCCACA"
-            app:layout_constraintBottom_toTopOf="@+id/imageView13"
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="385dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/LightRed"
+            android:backgroundTint="@color/LightRed"
+            android:text="Added Desire Pets Ads"
+            android:textAlignment="center"
+            android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.615"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/upper_toolbar" />
 
-        <ImageView
-            android:id="@+id/imageView8"
-            android:layout_width="119dp"
-            android:layout_height="104dp"
-            android:layout_marginStart="96dp"
-            android:layout_marginTop="40dp"
-            app:layout_constraintStart_toStartOf="@+id/view5"
-            app:layout_constraintTop_toTopOf="@+id/view5"
-            app:srcCompat="@drawable/prof" />
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="292dp"
+            android:layout_height="32dp"
+            android:text="Time Remaining : 7 Days"
+            tools:layout_editor_absoluteX="109dp"
+            tools:layout_editor_absoluteY="349dp" />
 
-        <EditText
-            android:id="@+id/tv_pro_name"
-            android:layout_width="258dp"
-            android:layout_height="49dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/tv_pro_name"
-            tools:layout_editor_absoluteX="72dp"
-            tools:layout_editor_absoluteY="311dp" />
-
-        <EditText
-            android:id="@+id/tv_pro_email"
-            android:layout_width="256dp"
-            android:layout_height="43dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/tv_pro_email"
-            tools:layout_editor_absoluteX="72dp"
-            tools:layout_editor_absoluteY="378dp" />
-
-        <EditText
-            android:id="@+id/tv_pro_address"
-            android:layout_width="256dp"
-            android:layout_height="43dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/tv_pro_address"
-            tools:layout_editor_absoluteX="72dp"
-            tools:layout_editor_absoluteY="507dp" />
-
-        <EditText
-            android:id="@+id/tv_pro_contactNo2"
-            android:layout_width="255dp"
-            android:layout_height="45dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/tv_pro_contactNo"
-            tools:layout_editor_absoluteX="72dp"
-            tools:layout_editor_absoluteY="443dp" />
-
-        <ImageButton
-            android:id="@+id/imageButton25"
-            android:layout_width="55dp"
-            android:layout_height="50dp"
-            android:scaleType="fitXY"
-            app:srcCompat="@drawable/pencilIcon"
-            tools:layout_editor_absoluteX="289dp"
-            tools:layout_editor_absoluteY="571dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <?xml version="1.0" encoding="utf-8"?>
 </androidx.constraintlayout.widget.ConstraintLayout>

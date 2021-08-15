@@ -4,7 +4,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Mypet">
+    tools:context=".Dog">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="409dp"
+        android:layout_height="272dp"
+        android:background="#99B8AFAF"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="128dp"
+        android:layout_height="213dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/black"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="281dp"
+        android:layout_height="68dp"
+        android:background="#99B8AFAF"
+        android:text="7 days old-Crocker spanial Jet black                       puppies "
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="280dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="68dp"
+        android:background="#99B8AFAF"
+        android:text="Contact: Mr. Saman Perera                       +94771234568   Location: No 32/2,                            Kahadawala Rd                           Kaduwela. "
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textViewT1"
+        android:layout_width="277dp"
+        android:layout_height="69dp"
+        android:background="#99B8AFAF"
+        android:text="12,000/-"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+
+
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -24,6 +73,43 @@
         tools:context=".MainActivity"
         tools:layout_editor_absoluteX="-16dp"
         tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="292dp"
+            android:layout_height="32dp"
+            android:text="Time Remaining : 7 Days"
+            tools:layout_editor_absoluteX="120dp"
+            tools:layout_editor_absoluteY="467dp" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/LightRed"
+            android:text="Add Items"
+            tools:layout_editor_absoluteX="267dp"
+            tools:layout_editor_absoluteY="138dp" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/ash"
+            android:text="Sell/Donate Pets"
+            android:textSize="10sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="138dp" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/LightRed"
+            android:text="Desire Pets"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="141dp"
+            tools:layout_editor_absoluteY="138dp" />
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/upper_toolbar"
@@ -54,7 +140,7 @@
         </SearchView>
 
         <TextView
-            android:id="@+id/textViewT1"
+            android:id="@+id/textViewD3"
             android:layout_width="136dp"
             android:layout_height="23dp"
             android:text="@string/textView3"
@@ -78,11 +164,10 @@
             app:srcCompat="@drawable/hanb" />
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/imageViewD1"
             android:layout_width="121dp"
             android:layout_height="69dp"
             android:layout_marginEnd="16dp"
-            app:layout_constraintBottom_toBottomOf="@+id/textViewT1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.423"
@@ -99,16 +184,6 @@
             app:srcCompat="@drawable/homeb" />
 
         <ImageView
-            android:id="@+id/imageView12"
-            android:layout_width="37dp"
-            android:layout_height="36dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginBottom="11dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageView11"
-            app:srcCompat="@drawable/shop" />
-
-        <ImageView
             android:id="@+id/imageView13"
             android:layout_width="63dp"
             android:layout_height="56dp"
@@ -119,6 +194,16 @@
             app:layout_constraintEnd_toStartOf="@+id/imageView14"
             app:layout_constraintStart_toEndOf="@+id/imageView12"
             app:srcCompat="@drawable/plus" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="37dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="11dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView11"
+            app:srcCompat="@drawable/shop" />
 
         <ImageView
             android:id="@+id/imageView15"
@@ -141,76 +226,8 @@
             app:layout_constraintEnd_toStartOf="@+id/imageView15"
             app:srcCompat="@drawable/todo" />
 
-        <View
-            android:id="@+id/view5"
-            android:layout_width="321dp"
-            android:layout_height="511dp"
-            android:background="#CCCACA"
-            app:layout_constraintBottom_toTopOf="@+id/imageView13"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/upper_toolbar" />
-
-        <ImageView
-            android:id="@+id/imageView8"
-            android:layout_width="119dp"
-            android:layout_height="104dp"
-            android:layout_marginStart="96dp"
-            android:layout_marginTop="40dp"
-            app:layout_constraintStart_toStartOf="@+id/view5"
-            app:layout_constraintTop_toTopOf="@+id/view5"
-            app:srcCompat="@drawable/prof" />
-
-        <EditText
-            android:id="@+id/tv_pro_name"
-            android:layout_width="258dp"
-            android:layout_height="49dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/tv_pro_name"
-            tools:layout_editor_absoluteX="72dp"
-            tools:layout_editor_absoluteY="311dp" />
-
-        <EditText
-            android:id="@+id/tv_pro_email"
-            android:layout_width="256dp"
-            android:layout_height="43dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/tv_pro_email"
-            tools:layout_editor_absoluteX="72dp"
-            tools:layout_editor_absoluteY="378dp" />
-
-        <EditText
-            android:id="@+id/tv_pro_address"
-            android:layout_width="256dp"
-            android:layout_height="43dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/tv_pro_address"
-            tools:layout_editor_absoluteX="72dp"
-            tools:layout_editor_absoluteY="507dp" />
-
-        <EditText
-            android:id="@+id/tv_pro_contactNo2"
-            android:layout_width="255dp"
-            android:layout_height="45dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/tv_pro_contactNo"
-            tools:layout_editor_absoluteX="72dp"
-            tools:layout_editor_absoluteY="443dp" />
-
-        <ImageButton
-            android:id="@+id/imageButton25"
-            android:layout_width="55dp"
-            android:layout_height="50dp"
-            android:scaleType="fitXY"
-            app:srcCompat="@drawable/pencilIcon"
-            tools:layout_editor_absoluteX="289dp"
-            tools:layout_editor_absoluteY="571dp" />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <?xml version="1.0" encoding="utf-8"?>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -16,6 +16,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view2" />
 
+    <View
+        android:id="@+id/view8"
+        android:layout_width="101dp"
+        android:layout_height="85dp"
+        android:background="@color/LightRed"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="145dp" />
+
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="128dp"
@@ -162,6 +170,14 @@
         tools:context=".MainActivity"
         tools:layout_editor_absoluteX="-16dp"
         tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="93dp"
+            android:layout_height="21dp"
+            android:text="No of Ads: 2"
+            tools:layout_editor_absoluteX="294dp"
+            tools:layout_editor_absoluteY="219dp" />
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/upper_toolbar"

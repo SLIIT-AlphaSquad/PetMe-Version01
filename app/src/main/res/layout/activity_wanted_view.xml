@@ -4,7 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Mypet">
+    tools:context=".Dog">
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="101dp"
+        android:layout_height="85dp"
+        android:background="@color/LightRed"
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="81dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="153dp"
+        android:layout_marginEnd="298dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dog" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="82dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="153dp"
+        android:layout_marginEnd="164dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cats" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="82dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="153dp"
+        android:layout_marginEnd="37dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/birds" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -24,6 +68,51 @@
         tools:context=".MainActivity"
         tools:layout_editor_absoluteX="-16dp"
         tools:layout_editor_absoluteY="0dp">
+
+        <View
+            android:id="@+id/view9"
+            android:layout_width="403dp"
+            android:layout_height="153dp"
+            android:background="#99B8AFAF"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="462dp" />
+
+        <View
+            android:id="@+id/view10"
+            android:layout_width="400dp"
+            android:layout_height="159dp"
+            android:background="#99B8AFAF"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="286dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="390dp"
+            android:layout_height="81dp"
+            android:layout_marginTop="7dp"
+            android:background="#99B8AFAF"
+            android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="392dp"
+            android:layout_height="58dp"
+            android:background="#99B8AFAF"
+            android:text="Wanted!"
+            tools:layout_editor_absoluteX="9dp"
+            tools:layout_editor_absoluteY="294dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="392dp"
+            android:layout_height="58dp"
+            android:background="#99B8AFAF"
+            android:text="Wanted!"
+            tools:layout_editor_absoluteX="9dp"
+            tools:layout_editor_absoluteY="471dp" />
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/upper_toolbar"
@@ -78,7 +167,7 @@
             app:srcCompat="@drawable/hanb" />
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/imageViewB2"
             android:layout_width="121dp"
             android:layout_height="69dp"
             android:layout_marginEnd="16dp"
@@ -141,76 +230,32 @@
             app:layout_constraintEnd_toStartOf="@+id/imageView15"
             app:srcCompat="@drawable/todo" />
 
-        <View
-            android:id="@+id/view5"
-            android:layout_width="321dp"
-            android:layout_height="511dp"
-            android:background="#CCCACA"
-            app:layout_constraintBottom_toTopOf="@+id/imageView13"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/upper_toolbar" />
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="390dp"
+            android:layout_height="81dp"
+            android:background="#99B8AFAF"
+            android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="352dp" />
 
-        <ImageView
-            android:id="@+id/imageView8"
-            android:layout_width="119dp"
-            android:layout_height="104dp"
-            android:layout_marginStart="96dp"
-            android:layout_marginTop="40dp"
-            app:layout_constraintStart_toStartOf="@+id/view5"
-            app:layout_constraintTop_toTopOf="@+id/view5"
-            app:srcCompat="@drawable/prof" />
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="390dp"
+            android:layout_height="81dp"
+            android:background="#99B8AFAF"
+            android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            tools:layout_editor_absoluteX="9dp"
+            tools:layout_editor_absoluteY="529dp" />
 
-        <EditText
-            android:id="@+id/tv_pro_name"
-            android:layout_width="258dp"
-            android:layout_height="49dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/tv_pro_name"
-            tools:layout_editor_absoluteX="72dp"
-            tools:layout_editor_absoluteY="311dp" />
-
-        <EditText
-            android:id="@+id/tv_pro_email"
-            android:layout_width="256dp"
-            android:layout_height="43dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/tv_pro_email"
-            tools:layout_editor_absoluteX="72dp"
-            tools:layout_editor_absoluteY="378dp" />
-
-        <EditText
-            android:id="@+id/tv_pro_address"
-            android:layout_width="256dp"
-            android:layout_height="43dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/tv_pro_address"
-            tools:layout_editor_absoluteX="72dp"
-            tools:layout_editor_absoluteY="507dp" />
-
-        <EditText
-            android:id="@+id/tv_pro_contactNo2"
-            android:layout_width="255dp"
-            android:layout_height="45dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/tv_pro_contactNo"
-            tools:layout_editor_absoluteX="72dp"
-            tools:layout_editor_absoluteY="443dp" />
-
-        <ImageButton
-            android:id="@+id/imageButton25"
-            android:layout_width="55dp"
-            android:layout_height="50dp"
-            android:scaleType="fitXY"
-            app:srcCompat="@drawable/pencilIcon"
-            tools:layout_editor_absoluteX="289dp"
-            tools:layout_editor_absoluteY="571dp" />
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="93dp"
+            android:layout_height="21dp"
+            android:text="No of Ads: 2"
+            tools:layout_editor_absoluteX="287dp"
+            tools:layout_editor_absoluteY="249dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <?xml version="1.0" encoding="utf-8"?>
 </androidx.constraintlayout.widget.ConstraintLayout>
